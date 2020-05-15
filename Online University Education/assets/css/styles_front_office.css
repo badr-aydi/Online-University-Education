@@ -1,0 +1,83 @@
+ul {
+	list-style-type: none;
+}
+
+.icon {
+	font-size: 40px;
+	color: #004174;
+}
+
+.icon:hover {
+	color: #329bee;
+}
+
+ul li:hover {
+	/*font-size: 40px;*/
+	/*color: #C0C0C0;*/
+	color: #004174;
+}
+
+a {
+	color: #004174;
+}
+
+.a_accueil:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 121px;
+}
+
+.a_message:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 98px;
+}
+
+.a_notification:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 54px;
+}
+
+[type=search] {
+	border: none;
+}
+
+.container.box_C-Publier {
+	border-radius: 40px;
+}
+
+.file_style {
+	content: 'Select some files';
+	color: #004174;
+	display: inline-block;
+	background: #007bff;
+	border-radius: 3px;
+	padding: 6px 8px;
+	outline: none;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	cursor: pointer;
+	text-shadow: 1px 1px #fff;
+	font-weight: 700;
+	font-size: 10pt;
+}
+
+#box_Publier {
+	border-radius: 40px;
+}
+
+textarea {
+	border: none;
+}
+
+

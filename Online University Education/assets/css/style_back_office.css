@@ -1,0 +1,44 @@
+.accueil:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 169px;
+}
+
+.etudiants:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 147px;
+}
+
+.moduels:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 144px;
+}
+
+.notification:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 125px;
+}
+
+.statistique:hover {
+	color: #329bee;
+	border: 4px solid #329bee;
+	border-bottom: none;
+	border-top: none;
+	border-left: none;
+	padding-right: 123px;
+}
