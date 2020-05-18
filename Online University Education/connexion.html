@@ -1,3 +1,9 @@
+<?php 
+
+required_once("php/connecion.php");
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -17,6 +23,7 @@
     <div><img src="assets/img/bg%20co.png" style="width: 460px;margin-top: 47px;margin-left: 549px;height: 660px;">
         <h1 style="color: rgb(255,255,255);margin-top: -475px;margin-left: 656px;font-size: 49px;width: 317px;">Connexion</h1>
     </div>
+    <form action="php/connexion.php" method="POST">
     <div style="width: 298px;margin-top: 50px;margin-left: 632px;line-height: 24px;">
         <input type="text" id="text_Connex" style="width: 300px;height: 50px;padding-left: 74px;font-size: 18px;line-height: 23px;letter-spacing: 0px;font-style: normal;font-weight: normal;" placeholder="Nom d'utilisateur" required="">
         <input type="text" id="text_Connex" style="width: 300px;height: 50px;margin-top: 30px;font-size: 18px;padding-left: 91px;" placeholder="Mot de passe" required="">
@@ -35,10 +42,12 @@
     <div style="margin-top: -25px;margin-left: 18px;font-size: 14px;">
         <a href="inscription.html" style="margin-left: 797px;margin-top: -56px;">INSCRIVEZ-VOUS ICI</a>
     </div>
+</form>
 
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    
 </body>
 
 </html>
