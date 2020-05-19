@@ -20,7 +20,7 @@ $res1=mysqli_query($co,$id) or die("requete erone");
 $enreg=mysqli_fetch_array($res1);
 $n=$enreg[0]+1;
 
-if($password1!=$password2){
+if($password1==$password2){
     $INSERT_U = "INSERT INTO utilisateur values ('$n','e','$nom','$prenom','$email','$password1')"; 
     
     $res = mysqli_query($co,$INSERT_U)or die ("verifier ta requete INSERT_U".mysqli_error());
