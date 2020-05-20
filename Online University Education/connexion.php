@@ -14,8 +14,16 @@ $password = $_POST['password'];
 $req = "select * from utilisateur where email='$email' && password='$password'";
 $res = mysqli_query($co, $req);
 $enreg = mysqli_fetch_array($res);
+
+$type = "select type from utilisateur";
+
 if($enreg){
-    header('location:./FRONT OFFICE.html');
+   if($type = 'a'){
+        header('location:./BACK OFFICE.html');
+    }elseif($type = 'e'){
+        header('location:./FRONT OFFICE.html');
+    }
+   
 }else{
-    header('location:connexion.php');
+    header('location:connexion.html');
 }
