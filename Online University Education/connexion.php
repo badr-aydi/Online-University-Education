@@ -15,12 +15,14 @@ $req = "select * from utilisateur where email='$email' && password='$password'";
 $res = mysqli_query($co, $req);
 $enreg = mysqli_fetch_array($res);
 
-$type = "select type from utilisateur";
+$type = "select type from utilisateur where email='$email'";
+$res1 = mysqli_query($co, $type);
+$en_type = mysqli_fetch_array($res1);
 
 if($enreg){
-   if($type = 'a'){
+   if($en_type = 'a'){
         header('location:./BACK OFFICE.html');
-    }elseif($type = 'e'){
+    }elseif($en_type = 'e'){
         header('location:./FRONT OFFICE.html');
     }
    

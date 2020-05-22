@@ -52,13 +52,18 @@
             </div>
 
             <div>
+                <form action="FRONT OFFICE.php" method="post">
                 <div class="container box_C-Publier" style="background-color: #ffffff;width: 647px;margin-top: 52px;height: 205px;">
                     <img src="assets/img/Etudient.png" style="width: 40px;height: 50px;margin-top: -142px;margin-left: 12px;">
-                    <textarea style="margin-top: 23px;margin-left: 27px;width: 480px;height: 100px;border-radius: 20px;line-height: 20px;padding-left: 11px;background-color: rgb(245,245,245);">
+                    <textarea name="text"
+                    style="margin-top: 23px;margin-left: 27px;width: 480px;height: 100px;border-radius: 20px;line-height: 20px;padding-left: 11px;background-color: rgb(245,245,245);">
                     </textarea>
-                    <input type="file" class="file_style" style="margin-top: 12px;margin-left: 82px;margin-bottom: 48px;height: 38px;width: 140px;">
-                    <button class="btn btn-primary" type="button" style="margin-left: 260px;">Publier</button>
+                    <input type="file" class="file_style" name="file"
+                     style="margin-top: 12px;margin-left: 82px;margin-bottom: 48px;height: 38px;width: 140px;">
+                    <button class="btn btn-primary" type="submit" name="btn"
+                    style="margin-left: 260px;">Publier</button>
                 </div>
+            </form>
             </div>
 
             <div id="box_Publier" style="margin-top: 58px;width: 647px;margin-left: 67px;background-color: #ffffff;">
@@ -92,7 +97,7 @@
                         <a href="#" style="margin-left: 5px;"><i class="fa fa-thumbs-up"></i>  J'aime</a>
                     </div>
                     <div style="width: 110px;margin-left: 472px;margin-top: -24px;">
-                        <a href="#" style="margin-left: 5px;"><i class="fa fa-comments"></i>  Commenter</a>
+                        <a href="#" style="margin-left: 5px;" name="Commenter"><i class="fa fa-comments"></i>  Commenter</a>
                     </div>
                 </div>
             </div>
